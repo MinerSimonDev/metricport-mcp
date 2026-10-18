@@ -8,11 +8,30 @@
     "url": "https://github.com/MinerSimonDev/metricport-mcp",
     "source": "github"
   },
-  "version": "0.1.0",
+  "version": "0.1.1",
   "remotes": [
     {
       "type": "streamable-http",
       "url": "https://metricport.io/api/mcp"
+    }
+  ],
+  "packages": [
+    {
+      "registryType": "npm",
+      "registryBaseUrl": "https://registry.npmjs.org",
+      "identifier": "metricport-mcp",
+      "version": "0.1.1",
+      "transport": {
+        "type": "stdio"
+      },
+      "environmentVariables": [
+        {
+          "name": "METRICPORT_API_KEY",
+          "description": "API key from https://metricport.io/app/keys. Leave empty to sign in via browser instead.",
+          "isRequired": false,
+          "isSecret": true
+        }
+      ]
     }
   ]
 }
