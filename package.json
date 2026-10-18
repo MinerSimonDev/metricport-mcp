@@ -1,0 +1,15 @@
+{
+  "name": "metricport-mcp",
+  "version": "0.1.0",
+  "description": "MCP server for Google Search Console, Google Ads and AdSense. Thin local client for the hosted MetricPort server (metricport.io).",
+  "license": "MIT",
+  "type": "module",
+  "bin": { "metricport-mcp": "bin/metricport-mcp.js" },
+  "files": ["bin", "README.md", "LICENSE"],
+  "engines": { "node": ">=18" },
+  "repository": { "type": "git", "url": "git+https://github.com/MinerSimonDev/metricport-mcp.git" },
+  "homepage": "https://metricport.io",
+  "bugs": { "url": "https://github.com/MinerSimonDev/metricport-mcp/issues" },
+  "keywords": ["mcp", "model-context-protocol", "google-search-console", "google-ads", "adsense", "seo", "claude", "cursor", "analytics"],
+  "dependencies": { "mcp-remote": "^0.15.1" }
+}
